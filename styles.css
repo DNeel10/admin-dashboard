@@ -238,6 +238,7 @@ input {
     padding-top: 25px;
     padding-left: 20px;
     padding-right: 8px;
+    transition: 150ms;
 }
 
 .card:hover {
@@ -344,7 +345,16 @@ button {
     font-weight:800;
     font-size: 16px;
     padding: .5em;
+    transition: 350ms;
 }
+
+button:hover,
+button:focus {
+    border: 1px solid rgb(125, 125, 125);
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
 
 .notification-icon {
     height: 25px;
